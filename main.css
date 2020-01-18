@@ -1,0 +1,33 @@
+* {
+	margin: 0;	
+}
+
+.crocodile {
+	position: absolute;
+	z-index: 100;
+}
+
+.container {
+	padding-top: 10vh;
+	height: 100vh;
+}
+
+.nav {
+	position: fixed;
+	background-color: green;
+	height: 10vh;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav li {
+	float: left;
+	width: 32vw;
+	text-align: center;
+	padding: 5px;
+}
